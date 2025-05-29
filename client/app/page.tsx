@@ -1,10 +1,9 @@
-import { Header } from "@/components/Header";
+import "@/app/style.scss"
+import Header from "@/components/header/Header";
 
 const Home = () => {
-  return (
-    <div className="app">
-      <Header/>
-    </div>
-  );
+  return <div className="app main">
+    <Header/>
+  </div>;
 };
 export default Home;
