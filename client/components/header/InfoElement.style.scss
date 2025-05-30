@@ -1,0 +1,24 @@
+.info {
+  margin-right: 5vw;
+  margin-top: 13px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  .title {
+    opacity: 0.536;
+    margin-bottom: 5px;
+  }
+  .subtitle{
+    transition: .3s ease-in-out;
+  }
+  .subtitle:hover{
+    opacity: 0.536;
+  }
+}
+
+@media (max-width: 900px) {
+  .info {
+    display: none;
+  }
+}

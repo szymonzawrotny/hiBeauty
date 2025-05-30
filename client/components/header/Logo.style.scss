@@ -1,0 +1,37 @@
+.logo {
+  position: fixed;
+  left: 25px;
+  top: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform-origin: 4px 0px;
+  color: white;
+  mix-blend-mode: difference;
+  line-height: 70%;
+  overflow: hidden;
+  z-index:11;
+}
+
+.logo.big {
+  transform: scale(5.75);
+}
+
+.logo:hover {
+  opacity: .536;
+}
+
+@media (max-width: 1400px) {
+  .logo.big {
+    transform: scale(3);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .logo.big {
+    transform: scale(1);
+  }
+}
