@@ -1,6 +1,7 @@
-.central{
-    width:400px;
-    height:500px;
-    margin-top: 500px;
-    background-color: black;
+.central {
+  width: 400px;
+  height: 500px;
+  margin-top: clamp(100px, calc(40svh + 20px), 1020px);
+  border: 2px solid blue;
+  width:100%;
 }

@@ -1,6 +1,6 @@
 import '@/components/header/Header.style.scss';
 import Burger from '@/components/header/Burger';
-import InfoElement from './InfoElement';
+import InfoElement from '@/components/header/InfoElement';
 
 const Header = () => {
   return (

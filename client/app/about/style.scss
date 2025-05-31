@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; //od tego jest zależne działanie logo
+  }
+  
+  .app.about{
+      background-color: #fcfcfc;
+      min-height: 500svh;
+      display: flex;
+      flex-direction: column;
+  }

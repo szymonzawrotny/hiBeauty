@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "revix",
+  title: "REVIX",
   description: "Revix web app",
 };
 
