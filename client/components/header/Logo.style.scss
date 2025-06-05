@@ -13,6 +13,10 @@
   overflow: hidden;
   z-index: 11;
   width:auto;
+  span{
+    display: block;
+    transform: translateX(-3%);
+  }
 }
 
 .logo.animate {
@@ -25,14 +29,14 @@
 }
 
 .logo:hover {
-  opacity: 0.536;
+  opacity: 0.6;
 }
 
 @media (max-width: 1020px) {
   .logo.big {
     transform: scale(1);
     top: 93px;
-    left: 0;
+    left: 25px;
     width: calc(100% - 25px);
     font-size: 30.5vw;
   }

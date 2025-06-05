@@ -1,19 +1,23 @@
 .header {
-  height: clamp(80px, 40svh, 1000px);
+  height: clamp(200px,18svw, 800px);
   display: flex;
   flex-direction: row;
   align-items: start;
   margin-top: 20px;
-  justify-content: end;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   z-index: 10;
+  width: 33%;
+  position: fixed;
+  right: 0;
 }
 
 @media (max-width:1020px){
   .header{
     justify-content: space-between;
     height: clamp(80px, 10svh, 100px);
+    width: 100%;
   }
 }
 

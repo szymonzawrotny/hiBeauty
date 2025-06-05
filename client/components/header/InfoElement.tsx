@@ -44,7 +44,7 @@ const InfoElement = ({
     };
   }, []);
 
-  const isScrolled = scrollY > 120;
+  const isScrolled = scrollY > 300;
 
   return (
     <div

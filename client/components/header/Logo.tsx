@@ -41,7 +41,7 @@ const Logo = () => {
     };
   }, []);
 
-  const isScrolled = scrollY > 120;
+  const isScrolled = scrollY > 300;
 
   return (
     <div
@@ -49,7 +49,7 @@ const Logo = () => {
         hasScrolled ? 'animate' : ''
       }`}
     >
-      revix
+      <span>revix</span>
     </div>
   );
 };
