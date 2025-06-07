@@ -1,5 +1,5 @@
 .header {
-  height: clamp(200px,18svw, 800px);
+  height: clamp(200px, 18svw, 800px);
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -11,10 +11,13 @@
   width: 33%;
   position: fixed;
   right: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
 }
 
-@media (max-width:1020px){
-  .header{
+@media (max-width: 1020px) {
+  .header {
     justify-content: space-between;
     height: clamp(80px, 10svh, 100px);
     width: 100%;
@@ -22,7 +25,7 @@
 }
 
 @media (max-width: 780px) {
-  .header{
+  .header {
     justify-content: end;
   }
 }

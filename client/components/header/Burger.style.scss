@@ -6,13 +6,18 @@
   margin-right: 25px;
   position: relative;
   cursor: pointer;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
   span {
     position: absolute;
     left: 50%;
     transform: translateX(-10px);
     background-color: #fcfcfc;
     height: 2px;
+    transition: 0.3s ease-in-out;
+    transform-origin: 0 50%;
   }
   .up {
     top: 35%;
@@ -26,4 +31,22 @@
 
 .burger:hover {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.burger.active {
+  span {
+    height: 1px;
+  }
+  .up {
+    top:30%;
+    width:55%;
+    transform: translateX(-10px) rotate(40deg);
+    left:55%;
+  }
+  .down {
+    top: 65%;
+    width: 55%;
+    transform: translateX(-10px) rotate(-40deg);
+    left:55%;
+  }
 }

@@ -4,6 +4,9 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
   .photos {
     display: flex;
     width: 58.5%;
@@ -27,6 +30,7 @@
       font-size: 46px;
       text-transform: uppercase;
       font-weight: 700;
+      cursor: default;
     }
     .swipercontainer {
       flex-basis: 70%;
@@ -37,17 +41,18 @@
         justify-content: space-between;
         .swiperTitle {
           text-transform: capitalize;
-          opacity: .6;
+          opacity: 0.6;
           font-weight: 500;
+          cursor: default;
         }
         .arrows {
           border: 2px solid yellow;
           width: 20%;
         }
       }
-      .swiper{
+      .swiper {
         margin-top: 10px;
-        flex-grow:1;
+        flex-grow: 1;
         position: relative;
       }
     }

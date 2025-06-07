@@ -12,8 +12,11 @@
   line-height: 70%;
   overflow: hidden;
   z-index: 11;
-  width:auto;
-  span{
+  width: auto;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  span {
     display: block;
     transform: translateX(-3%);
   }
@@ -24,7 +27,7 @@
 }
 
 .logo.big {
-  width:65vw;
+  width: 65vw;
   font-size: 19vw;
 }
 
