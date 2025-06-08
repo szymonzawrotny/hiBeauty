@@ -11,7 +11,7 @@
   mix-blend-mode: difference;
   line-height: 70%;
   overflow: hidden;
-  z-index: 11;
+  z-index: 1;
   width: auto;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -37,7 +37,6 @@
 
 @media (max-width: 1020px) {
   .logo.big {
-    transform: scale(1);
     top: 93px;
     left: 25px;
     width: calc(100% - 25px);
@@ -50,8 +49,10 @@
 }
 
 @media (max-width: 780px) {
+  .logo {
+    z-index: 30;
+  }
   .logo.big {
-    transform: scale(1);
     top: 35px;
     left: 25px;
     width: auto;
