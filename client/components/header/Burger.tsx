@@ -16,7 +16,7 @@ const Burger = () => {
 
   return (
     <>
-      <div className="burger" onClick={handleBurger} ref={burgerRef}>
+      <div data-testid="burger" className="burger" onClick={handleBurger} ref={burgerRef}>
         <span className="up"></span>
         <span className="down"></span>
       </div>

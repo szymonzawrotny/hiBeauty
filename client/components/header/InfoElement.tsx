@@ -51,6 +51,7 @@ const InfoElement = ({
       className={`info ${isScrolled ? 'wrap' : ''} ${
         hasScrolled ? 'animate' : ''
       }`}
+      data-testid='infoElement'
     >
       <div className="title">{title}</div>
       <div className="subtitle">{subtitle}</div>

@@ -2,7 +2,7 @@ import { render, screen, act, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Logo from '@/components/header/Logo';
 
-describe('Header', () => {
+describe('Logo', () => {
   let logoElement: HTMLElement;
   beforeEach(() => {
     render(<Logo />);
