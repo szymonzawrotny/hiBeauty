@@ -51,10 +51,11 @@
 @media (max-width: 780px) {
   .logo {
     z-index: 30;
+    left: 5%;
   }
   .logo.big {
     top: 35px;
-    left: 25px;
+    left: 5%;
     width: auto;
     font-size: max(3vw, 48px);
   }

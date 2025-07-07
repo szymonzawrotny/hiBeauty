@@ -52,7 +52,16 @@
   }
 }
 
+@media (max-width: 1020px) {
+  .burger{
+    margin-right: 2.2%;
+  }
+}
+
 @media (max-width: 780px) {
+  .burger{
+    margin-right: 5%;
+  }
   .burger.active {
     border: 1px solid #fcfcfc2b;
   }
